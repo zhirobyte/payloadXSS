@@ -1,0 +1,1 @@
+subfinder  -d yourdomain -silent | httpx -title -tech-detect -status-code
