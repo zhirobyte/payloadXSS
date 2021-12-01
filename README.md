@@ -12,4 +12,5 @@ PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 Make sure you know the rules of bug bounty,
 dont exploit any kind of website without any responsibility from the owner.
 
+zhirosec
 thanks :)
