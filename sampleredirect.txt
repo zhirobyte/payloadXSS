@@ -1,2 +1,2 @@
 this is the sample payload
-https://www.redacted.com/signup?cloudId=[id]&requestId=123&redirecturl=<h3>javascript:prompt(1)</h3>&isPermitted=false
+https://www.redacted.com/signup?cloudId=[id]&requestId=123&redirecturl=javascript:prompt(1)&isPermitted=false
