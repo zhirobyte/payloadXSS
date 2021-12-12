@@ -21,3 +21,7 @@
 	<button>[test]</button>
 <h3>output<h3>
 <div id="result"></div>
+
+	
+	
+	 http://169.254.169.254/latest/meta-data/iam/security-credentials/
