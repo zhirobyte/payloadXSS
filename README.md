@@ -16,4 +16,4 @@ zhirosec
 thanks
 
 BUY ME A CUP OF TEA :)
-<a href="https://paypal.me/zhirone?country.x=ID&locale.x=en_US"><img src="https://img.icons8.com/color/48/000000/paypal.png"/></a>
+<a href="https://paypal.me/zhirone?country.x=ID&locale.x=en_US"><img src="https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_960_720.png"/></a>
