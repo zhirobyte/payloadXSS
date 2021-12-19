@@ -14,3 +14,6 @@ dont exploit any kind of website without any responsibility from the owner.
 
 zhirosec
 thanks :)
+
+
+<a href="https://paypal.me/zhirone?country.x=ID&locale.x=en_US">MY PAYPAL</a>
