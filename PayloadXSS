@@ -58,5 +58,7 @@ test@domain(<script>alert(0)</script>).com
 
 "<script>alert(0)</script>"@domain.com
 
+<input type="text" value='' <div/autofocus/onfo<!--esi-->cus='a<!--esi-->lert("test")'>x</div>
+
 -----------------------------------------------------------------------
  
