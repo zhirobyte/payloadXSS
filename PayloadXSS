@@ -60,5 +60,6 @@ test@domain(<script>alert(0)</script>).com
 
 <input type="text" value='' <div/autofocus/onfo<!--esi-->cus='a<!--esi-->lert("test")'>x</div>
 
+“> <img src = x onerror = javascript: alert (1); 
 -----------------------------------------------------------------------
  
