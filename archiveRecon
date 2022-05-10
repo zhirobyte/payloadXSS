@@ -1,0 +1,3 @@
+using this url for recon 
+
+https://web.archive.org/cdx/search?url=<your website here>&matchType=prefix&collapse=urlkey&output=json&fl=original%2Cmimetype%2Ctimestamp%2Cendtimestamp%2Cgroupcount%2Cuniqcount&filter=!statuscode%3A[45]..&limit=100000
