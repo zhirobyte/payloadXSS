@@ -1,0 +1,5 @@
+Read permission 
+
+
+aws s3 ls s3://[s3 bucket here] --no-sign-request
+
