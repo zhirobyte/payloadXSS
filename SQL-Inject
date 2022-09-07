@@ -8,7 +8,11 @@
  ' or ''=' 
 
  ///
- subfinder -d target | tee -a domains (change target with your domain eg: sample.com)
+ 
+ 
+ (change target with your domain eg: sample.com)
+ 
+ subfinder -d target | tee -a domains
  cat domains | httpx | tee -a alive.txt 
  cat alive.txt | waybackurls | tee -a urls 
  gf sqli urls >> sqli
