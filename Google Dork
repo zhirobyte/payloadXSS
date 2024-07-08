@@ -1,0 +1,1 @@
+site:targetsite.com ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  "phonenumber","email","password"
