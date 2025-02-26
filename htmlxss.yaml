@@ -95,20 +95,15 @@ info:
     
     <button class="btn login">Log in</button>
 
-    <hr>'javascript:alert(123);'
-'javascript:document.write(document.cookie);'
-    <p>Or continue with</p>
     
     <div>
         <button class="social-btn google">Google</button>
         <button class="social-btn facebook">Facebook</button>
         <button class="social-btn apple">Apple</button>
 
-    	<a href='javascript:alert(123);'>[Alert pop]</a><br>
-
-	<a href='javascript:alert(document.location);'>[Location]</a><br>
-
-	<a href='javascript:document.write(document.cookie);'>[Cookies]</a><br>
+  <a href="https://google.com/">
+    <button>freeCodeCamp</button>
+  </a>
     </div>
  
 
