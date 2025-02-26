@@ -1,8 +1,4 @@
-swagger: '2.0'
-info:
-  version: 1.0.0
-  title: Fake Login Page by faiz
-  description: '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +14,7 @@ info:
             height: 100vh;
             margin: 0;
         }
+
         .container {
             text-align: center;
             background: white;
@@ -25,11 +22,13 @@ info:
             padding: 2rem;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #e63946;
             font-size: 2.5rem;
             margin-bottom: 1rem;
         }
+
         input {
             width: 100%;
             padding: 10px;
@@ -37,6 +36,7 @@ info:
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         .btn {
             width: 100%;
             padding: 10px;
@@ -47,9 +47,11 @@ info:
             font-size: 1rem;
             margin: 10px 0;
         }
+
         .login {
             background-color: #e63946;
         }
+
         .social-btn {
             display: inline-block;
             width: 32%;
@@ -61,20 +63,25 @@ info:
             text-align: center;
             cursor: pointer;
         }
+
         .google {
             background-color: #db4437;
         }
+
         .facebook {
             background-color: #3b5998;
         }
+
         .apple {
             background-color: #000000;
         }
+
         .forgot-password {
             margin: 10px 0;
             font-size: 0.9rem;
             color: #6c757d;
         }
+
         .signup {
             margin-top: 15px;
             font-size: 0.9rem;
@@ -85,34 +92,24 @@ info:
 <body>
 
 <div class="container">
-    <h1>deriv</h1>
+    <h1>Deriv</h1>
     <p>Welcome back</p>
 
-    <input type="email" placeholder="Email" required>
-    <input type="password" placeholder="Password" required>
-    
-    <p class="forgot-password"><a href="#">Forgot password?</a></p>
-    
-    <button class="btn login">Log in</button>
-
-    <hr>
+    <marquee>
+        <h1>Stored XSS JS and HTML Injection</h1>
+        <h1>by zhirosec</h1>
+    </marquee>
 
     <p>Or continue with</p>
     
     <div>
-        <button class="social-btn google">Google</button>
-        <button class="social-btn facebook">Facebook</button>
-        <button class="social-btn apple">Apple</button>
+        <a href="https://google.com"><button class="social-btn google">Google</button></a>
+        <a href="https://www.facebook.com/"><button class="social-btn facebook">Facebook</button></a>
+        <a href="https://www.apple.com/"><button class="social-btn apple">Apple</button></a>
     </div>
 
     <p class="signup">Don’t have an account yet? <a href="https://google.com">Sign up</a></p>
 </div>
 
 </body>
-</html>'
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+</html>
