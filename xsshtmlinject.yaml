@@ -1,4 +1,4 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
   title: XSS Attack BY M0X0101
   description: |
