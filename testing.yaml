@@ -48,7 +48,9 @@ info:
 </style>
 <div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1>
+        <h1>HTML Injection : Test Hackerone</h1>
+<marquee><h1>HTML Injection</h1>
+</marquee>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
