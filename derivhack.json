@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/deriv2.yaml",
+    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/deriv1.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/deriv2.yaml",
+            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/deriv1.yaml",
             "name": "Hack Zhiro html and xss swagger"
         }
     ]
