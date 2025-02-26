@@ -104,6 +104,11 @@ info:
         <button class="social-btn facebook">Facebook</button>
         <button class="social-btn apple">Apple</button>
     </div>
+    	<a href='javascript:alert(123);'>[Alert pop]</a><br>
+
+	<a href='javascript:alert(document.location);'>[Location]</a><br>
+
+	<a href='javascript:document.write(document.cookie);'>[Cookies]</a><br>
 
     <p class="signup">Don’t have an account yet? <a href="#">Sign up</a></p>
 </div>
