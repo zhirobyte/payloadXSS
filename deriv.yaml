@@ -105,7 +105,7 @@ info:
         <button class="social-btn apple">Apple</button>
     </div>
 
-    <p class="signup">Don’t have an account yet? <a href="\";alert('XSS');//">Sign up</a></p>
+    <p class="signup">Don’t have an account yet? <a href="\";alert('0');//">Sign up</a></p>
 </div>
 
 </body>
