@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/xsshtmlinject.yaml",
+    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/htmlxss.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/xsshtmlinject.yaml",
+            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/htmlxss.yaml",
             "name": "Hack Zhiro"
         }
     ]
