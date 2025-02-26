@@ -2,8 +2,8 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page by faiz
-  description: '
-    <!DOCTYPE html>
+  description: 
+  ' <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
