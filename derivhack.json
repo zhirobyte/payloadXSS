@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/htmlxss.yaml",
+    "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/test.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/htmlxss.yaml",
+            "url": "https://raw.githubusercontent.com/zhirobyte/payloadXSS/refs/heads/main/test.yaml",
             "name": "Hack Zhiro"
         }
     ]
