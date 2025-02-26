@@ -87,25 +87,21 @@ info:
 <div class="container">
     <h1>deriv</h1>
     <p>Welcome back</p>
+<marquee>
+            <h1>Stored XSS JS and HTML Injection</h1>
+            <h1>by zhirosec</h1>
+        </marquee>
 
-    <input type="email" placeholder="Email" required>
-    <input type="password" placeholder="Password" required>
-    
-    <p class="forgot-password"><a href="#">Forgot password?</a></p>
-    
-    <button class="btn login">Log in</button>
+        <p>Or continue with</p>
+        
+        <div>
+            <a href="https://google.com"><button class="social-btn google">Google</button></a>
+            <a href="https://www.facebook.com/"><button class="social-btn facebook">Facebook</button></a>
+            <a href="https://www.apple.com/"><button class="social-btn apple">Apple</button></a>
+        </div>
 
-    
-    <div>
-        <button class="social-btn google">Google</button>
-        <button class="social-btn facebook">Facebook</button>
-        <button class="social-btn apple">Apple</button>
-
-  <a href="https://google.com/">
-    <button>freeCodeCamp</button>
-  </a>
+        <p class="signup">Don’t have an account yet? <a href="https://google.com">Sign up</a></p>
     </div>
- 
 
     <p class="signup">Don’t have an account yet? <a href="#">Sign up</a></p>
 </div>
