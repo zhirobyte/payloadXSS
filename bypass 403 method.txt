@@ -1,0 +1,1 @@
+curl -i -s -k -X $'GET' -H $'Host: account.testing.com' -H $'X-rewrite-url: admin/login' $'https://account.testing.com/'  for nginx
