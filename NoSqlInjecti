@@ -1,0 +1,3 @@
+?id[$ne]= //this parameter is stand for "Not equal"
+?id[$gt]= //this parameter is stand for "Greater than"
+?id[$eq]= //this parameter is stand for "Equal"
